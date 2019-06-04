@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         sampleBtn.layer.cornerRadius = CGFloat(8)
     }
 
-
+    @IBAction func onTapInfo(_ sender: Any) {
+    }
+    
 }
 

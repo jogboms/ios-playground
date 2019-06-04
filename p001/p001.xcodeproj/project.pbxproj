@@ -14,6 +14,10 @@
 		1A21196C22A142D00056F659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A21196A22A142D00056F659 /* LaunchScreen.storyboard */; };
 		1A21197722A142D00056F659 /* p001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A21197622A142D00056F659 /* p001Tests.swift */; };
 		1A21198222A142D00056F659 /* p001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A21198122A142D00056F659 /* p001UITests.swift */; };
+		1AAC00B522A68F2500BA72AE /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AAC00B422A68F2500BA72AE /* About.storyboard */; };
+		1AB0029622A6A45C000546FC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0029522A6A45C000546FC /* AboutViewController.swift */; };
+		1AB0029722A6B9CB000546FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A21196122A142CE0056F659 /* AppDelegate.swift */; };
+		1AB0029822A6B9CC000546FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A21196122A142CE0056F659 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,8 @@
 		1A21197D22A142D00056F659 /* p001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = p001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A21198122A142D00056F659 /* p001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p001UITests.swift; sourceTree = "<group>"; };
 		1A21198322A142D00056F659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AAC00B422A68F2500BA72AE /* About.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = "<group>"; };
+		1AB0029522A6A45C000546FC /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		1A21196022A142CE0056F659 /* p001 */ = {
 			isa = PBXGroup;
 			children = (
+				1AAC00B322A68F0700BA72AE /* About */,
 				1A21196122A142CE0056F659 /* AppDelegate.swift */,
 				1A21196322A142CE0056F659 /* ViewController.swift */,
 				1A21196522A142CE0056F659 /* Main.storyboard */,
@@ -123,6 +130,15 @@
 				1A21198322A142D00056F659 /* Info.plist */,
 			);
 			path = p001UITests;
+			sourceTree = "<group>";
+		};
+		1AAC00B322A68F0700BA72AE /* About */ = {
+			isa = PBXGroup;
+			children = (
+				1AAC00B422A68F2500BA72AE /* About.storyboard */,
+				1AB0029522A6A45C000546FC /* AboutViewController.swift */,
+			);
+			path = About;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A21196C22A142D00056F659 /* LaunchScreen.storyboard in Resources */,
+				1AAC00B522A68F2500BA72AE /* About.storyboard in Resources */,
 				1A21196922A142D00056F659 /* Assets.xcassets in Resources */,
 				1A21196722A142CE0056F659 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB0029622A6A45C000546FC /* AboutViewController.swift in Sources */,
 				1A21196422A142CE0056F659 /* ViewController.swift in Sources */,
 				1A21196222A142CE0056F659 /* AppDelegate.swift in Sources */,
 			);
@@ -265,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB0029722A6B9CB000546FC /* AppDelegate.swift in Sources */,
 				1A21197722A142D00056F659 /* p001Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB0029822A6B9CC000546FC /* AppDelegate.swift in Sources */,
 				1A21198222A142D00056F659 /* p001UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
